@@ -1,0 +1,34 @@
+{
+  "name": "bf-email",
+  "version": "0.0.1",
+  "description": "Genereate an email recipient list from a source table",
+  "main": "index.js",
+  "scripts": {
+    "setup": "npm i && npm link"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/ChristopherNeuwirth/recipient-list-mailer.git"
+  },
+  "bin": {
+    "announce": "index.js"
+  },
+  "keywords": [
+    "node",
+    "javascript",
+    "js",
+    "email",
+    "script",
+    "automation"
+  ],
+  "author": "Christopher Neuwirth",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ChristopherNeuwirth/recipient-list-mailer/issues"
+  },
+  "homepage": "https://github.com/ChristopherNeuwirth/recipient-list-mailer#readme",
+  "dependencies": {
+    "commander": "^2.19.0",
+    "dotenv": "^6.1.0"
+  }
+}
