@@ -8,7 +8,7 @@ Copy create a .env file by the sample `cp sample.env .env` and insert your data.
 ## 💌 Use
 
 from anywhere run
-`announce``
+`announce`
 Press CMD V to paste.
 
 ## 📝 To Dos
