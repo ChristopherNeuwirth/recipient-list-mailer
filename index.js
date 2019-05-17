@@ -31,8 +31,8 @@ function pbcopy(data) {
 }
 
 let newMail = () => {
-  if (!process.env.BASEURL) {
-    console.error("⚙️  Please specify the base url in .env file.");
+  if (!process.env.URL) {
+    console.error("⚙️  Please specify the url in .env file.");
     process.exit(1);
   }
 
@@ -46,10 +46,10 @@ let newMail = () => {
 
   // AUTH
   const options = {
-    uri: process.env.BASEURL,
+    uri: process.env.URL,
     method: "PUT",
     auth: {
-      user: process.env.USER,
+      user: process.env.USERNAME,
       pass: process.env.PASSWORD
     },
     transform: body => {
